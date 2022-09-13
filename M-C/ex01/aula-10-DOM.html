@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eventos DOM</title>
+    <script src="library.js"></script>
     <style>
         div#area{
             border: 1px solid black;
@@ -21,13 +22,11 @@
     <div id="area">
         interaja...
     </div>
-
     <script>
         var a = window.document.getElementById('area')
         a.addEventListener('click', clicar)
         a.addEventListener('mouseenter', entrar)
         a.addEventListener('mouseout', saiu)
-
         function clicar() {
             a.innerText = 'clicou'
             a.style.background = 'red'
@@ -41,6 +40,5 @@
             a.style.background = 'yellow'
         }
     </script>
-
 </body>
 </html>
