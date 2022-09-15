@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,10 +11,20 @@
     <h1>DOM-Document Object Model</h1>
     <p>DOM pode ser usado para alcançar objetos nos navegadores</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p id="teste"></p>
     <script>
         var p1 = window.document.getElementsByTagName('p')[0]
-        document.getElementById('corpo').style.background = 'black'
+        document.getElementById('corpo').style.background = 'cyan'
         document
+
+        let preço = 1850
+        let porc = 10
+        let valor = (preço * valor) / 100
+        let novo = preço - valor
+
+        var salario = document.getElementById('teste')
+        salario.innerText(novo)
+        
     </script>
 </body>
 </html>
