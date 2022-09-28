@@ -3,12 +3,24 @@ Exercícios de Teste Condicional IF ELSE em JavaScript
 1. Faça um script que verifique se uma letra digitada num campo de input é vogal ou consoante.
 */
 
-var letra = 'a'
+var letra = 'j'
 
-var vogal = ['a', 'e', 'i', 'o', 'u']
-
-if( letra === vogal){
-    console.log ("a letra é vogal")
-}else{
-    console.log("a letra é consoante")
+switch (letra){
+    case 'a':
+        console.log('vogal')
+        break
+    case 'e':
+        console.log('vogal')
+        break
+    case 'i':
+        console.log('vogal')
+        break
+    case 'o':
+        console.log('vogal')
+        break
+    case 'u':
+        console.log('vogal')
+        break
+    default:
+        console.log('consoante')
 }
