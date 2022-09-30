@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verficador de idade</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="library.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                <label for="iano">Ano de nascimento:</label>
+                <input type="text" name="ano" id="iano">
+            </p>
+            <p>
+                <label for="imasc">masculino</label>
+                <input type="radio" name="radsex" id="imasc" checked>
+                <label for="ifemi">feminino</label>
+                <input type="radio" name="radsex" id="ifemi">
+            </p>
+            <p>
+                <input type="button" value="Verificar" id="button" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Cauã Yves</p>
+    </footer>
+</body>
+</html>
