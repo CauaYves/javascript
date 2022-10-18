@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    font: normal 13pt arial;
+}
+body{
+    background-color: rgb(67, 77, 77);
+    height: 100%;
+    width: 100%;
+} 
+.box{
+    height: 50vh;
+    width: 50vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(222, 67, 67);
+    border-radius: 10px;
+    box-shadow: 2px 4px 9px rgba(0, 0, 0, 0.309);
+
+    transform: translate(50% ,50%);
+    left: 50%;
+    right: 50%;
+}
+p{
+    padding: 15px;
+}
+
