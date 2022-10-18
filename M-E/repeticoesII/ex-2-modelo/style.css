@@ -30,4 +30,9 @@ body{
 p{
     padding: 15px;
 }
-
+#res{
+    margin: 10px;
+    padding: 25px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
