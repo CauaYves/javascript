@@ -4,7 +4,7 @@ function contador() {
     let res = document.getElementById('res')
     let passo = Number(document.getElementById('ipasso').value)
         while(primeiroNum <= segundoNum){
-            res.innerText += `${primeiroNum},`
+            res.innerText += `${primeiroNum %2},`
             primeiroNum++
     }
 
