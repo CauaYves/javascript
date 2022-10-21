@@ -8,6 +8,7 @@ html{
     font: normal 13pt arial;
 }
 body{
+    background-color: rgb(25, 20, 50);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +22,7 @@ section.box{
     height: auto;
     padding: 25px;
     border-radius: 10px;
-    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.253);
+    box-shadow: 1px 4px 8px #f5e10236;
 }
 div#res{
     min-width: 100px;
