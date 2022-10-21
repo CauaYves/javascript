@@ -8,35 +8,31 @@ html{
     font: normal 13pt arial;
 }
 body{
-    background-color: rgb(67, 77, 77);
-    height: 100%;
-    width: 100%;
-} 
-.box{
-    height: 50vh;
-    width: 50vw;
-
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(222, 67, 67);
+    height: 100vh;
+    width: 100vw;
+}
+section.box{
+    background-color: aquamarine;
+    min-width: 300px;
+    max-width: 800px;
+    height: auto;
+    padding: 25px;
     border-radius: 10px;
-    box-shadow: 2px 4px 9px rgba(0, 0, 0, 0.309);
-
-    transform: translate(50% ,50%);
-    left: 50%;
-    right: 50%;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.253);
+}
+div#res{
+    min-width: 100px;
+    max-width: 300px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
 }
 p{
-    padding: 15px;
+    padding: 10px;
 }
-#res{
-
-    overflow-x: scroll;
-    min-height: 50px;
-    width: 320px;
-    margin: 10px;
-    padding: 25px;
-    background-color: aliceblue;
-    border-radius: 10px;
+p#p{
+    max-width: 290px;
+    height: auto;
 }
