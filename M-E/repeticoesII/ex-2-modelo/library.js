@@ -23,5 +23,8 @@ function contador() {
 
 
 function limpar() {
-   window.location.reload(true)
+   document.getElementById('inumprimeiro').value =""
+   document.getElementById('inumsegundo').value =""
+   document.getElementById('ipasso').value = ""
+   document.getElementById('p').innerHTML = ""
 }

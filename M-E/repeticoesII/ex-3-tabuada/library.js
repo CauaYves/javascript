@@ -1,12 +1,11 @@
-let numero = document.getElementById('numero')
-let p = document.getElementById('p')
-
 function tabuada(){ 
-
+    let num = Number(document.getElementById('numero').value)
+    let p = document.getElementById('p')
+    limpar()
     for(var i = 0; i < 11; i++){
-        p = `1 x ${i} = ${i * numero} <br>`
-        console.log (p)
-        console.log(numero)
+
+        p.innerHTML += `${num} x ${i} = ${i * num} <br>`
+        console.log(p)
     }
 
 } 
