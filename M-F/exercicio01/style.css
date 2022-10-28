@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    font: normal 13pt arial;
+}
+
+body{
+    background-color: rgb(0, 47, 74);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+section.box{
+    display: block;
+    background-color: aquamarine;
+    min-width: 300px;
+    max-width: 800px;
+    height: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 8px #f5e10236;
+}
+div{
+    background-color: aliceblue;
+    margin-top: 10px;
+    border: 1px solid black;
+    min-width: 180px;
+    min-height: 100px;
+    overflow-y: auto;
+}
