@@ -1,16 +1,13 @@
 function adicionarNumero() {
     let inumber = Number(document.getElementById('inumber').value)
     let p = document.getElementById('div')
-    let listaNumeros = [`1,2,2,2`]
-    if(listaNumeros.indexOf(inumber)){
-        alert('ja tem')
-    }else{
-        p.innerText += `foi adicionado o numero ${inumber} \n`
-        listaNumeros += inumber
-    } 
+    let listaNumeros = []
+    
+    p.innerText += `foi adicionado o numero ${inumber} \n`
+    listaNumeros.push(`${inumber}`)
 
-    for(let i = 0 ; i < listaNumeros.length ; i++){
-        console.log(`${i}`)
+    for(let i = 0 ; i < 3 ; i++){
+        console.log(listaNumeros[i])
     }
 }
 function limpar() {
