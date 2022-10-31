@@ -1,4 +1,4 @@
-/*
+
 function trocaVogais(string) {
 
     let stringvogal= ''
@@ -20,17 +20,15 @@ function trocaVogais(string) {
     return stringvogal
 
   }
-  */
+
   function tiraNumeros(string) {
     let numlist = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9',]
     for (let i = 0; i < string.length; i++){
         for(let k = 0; k < numlist.length; k++){
             if(string[i] == numlist[k]){
-                string.replace(string[i], '');
+                string = string.replace(string[i], "");
             }
         }
     }
-    console.log(string)
     return string
     }
-    tiraNumeros('c1a2u3a4')
