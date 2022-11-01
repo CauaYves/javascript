@@ -31,6 +31,7 @@ div{
     margin-top: 10px;
     border: 1px solid black;
     min-width: 180px;
+    max-width: max-content;
     min-height: 100px;
-    overflow-y: auto;
+    overflow-y: scroll;
 }
