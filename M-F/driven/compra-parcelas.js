@@ -21,7 +21,7 @@ preco = 1200 e parcela = 6
 */
 function decidirCompra (preco, parcelas) {
     if(preco > 1000 && parcelas >= 10){ 
-      return "Vou comprar"
+    return "Vou comprar"
   }else if( preco > 500 && parcelas >= 5){
     return "Vou comprar"
   }else if(preco <= 500){ 

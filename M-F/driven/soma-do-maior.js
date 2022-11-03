@@ -7,7 +7,7 @@ Observação:
 Todos os valores serão distintos entre si, ou seja, não ocorrerá algo como num1=2, num2=2.
 */
 function SomaDosMaiores(num1, num2, num3) {
-    let maiores = []
+
     if(num1 < num2 && num1 < num3) {
         return num2 + num3
     }else if(num2 < num1 && num2 < num3){
@@ -19,6 +19,5 @@ function SomaDosMaiores(num1, num2, num3) {
 console.log(SomaDosMaiores(0, 5, 6))
 
 
-/*
-primeiro numero maior que todos
-*/
+
+
