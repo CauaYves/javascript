@@ -8,7 +8,7 @@ observação: todos os arrays terão pelo menos um valor ímpar.
 Nos caso em que houver 1 valor ímpar a função deve retornar o seu próprio valor, ou seja se for passado [1, 4, 6] a função deve retornar 1.
 */
 
-function SomaDosImpares(arr) {
+function somaDosImpares(arr) {
     let soma = 0
     for(let i = 0; i < arr.length; i++) {
         if(arr[i]%2 != 0){
