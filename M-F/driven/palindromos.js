@@ -15,7 +15,7 @@ let primeiraLetra = palavra[0]//Com isso, temos que primeiraLetra recebeu a stri
 let segundaLetra = palavra[1]//Com isso, temos que segundaLetra recebeu a string “b”;
 
 */
-/*
+
 function ehPalindromo (string) {
     var palindromo = "";
 
@@ -30,30 +30,8 @@ if (string == palindromo) {
 }
   }
   console.log(ehPalindromo("abc"))
-  */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
   function ehPalindromo (string) {
     let i = 0
     let j = string.length
