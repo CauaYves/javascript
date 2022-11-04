@@ -29,9 +29,9 @@ if (string == palindromo) {
    return "não"
 }
   }
-  console.log(ehPalindromo("abc"))
+  console.log(ehPalindromo("aba"))
 
-  
+
   function ehPalindromo (string) {
     let i = 0
     let j = string.length
