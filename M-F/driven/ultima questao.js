@@ -12,26 +12,6 @@ Observação:
 a posição das peças será dada no formato “xy” onde x representa a linha em que a peça está e y a coluna que a peça está, ou seja, a posição “12” significa que a peça está na 1a linha e na 2a coluna
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function xadrez(posicaoTorre,posicaoAdversario){
     let torrePosX = posicaoTorre[0]
     let torrePosY = posicaoTorre[1]
