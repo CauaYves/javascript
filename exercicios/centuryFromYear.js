@@ -8,16 +8,19 @@ solution(year) = 17.
 */
 
 function solution(year) {
-    let yearS = year.toString()
-    let sec = Number(yearS[0]+yearS[1])
-    if(yearS[3] >= 1){
-        return sec
-    }else if(sec.toString()[2] == 0 && sec.toString()[3] == 0){ 1700
-        return sec
-    }else{
-        return sec
+    let ano = 0
+
+    if(year.toString()[2] == 0 && year.toString()[3] == 0){
+        return year / 100
+    }else if(year.toString().length == 3 && year.toString()[2] == 0 && year.toString()[1] == 0){
+        return year / 100
+    }else if(year.toString().length == 3){
+        ano = year / 100 
+        return parseInt(ano, 0) + 1
+    }else if(year.toString()[3] != 0){
+        ano = year / 100
+        return parseInt(ano, 0) + 1
     }
 
-}
-console.log(solution(1905)) // 20
-console.log(solution(1700)) //17
+} 
+console.log(solution(200)) // 2
