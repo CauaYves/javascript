@@ -1,12 +1,12 @@
 function solution(inputArray) {
-    let i = 0
+    let nUm = 0
 
-    while(i < inputArray.length){
-        if(inputArray[i] == i + 1){
-            return inputArray[i] * i + 1
-        }else{
-            i++
+    for(let i = 0; i < inputArray.length; i++){
+        if(inputArray[i] * inputArray[i + 1] > nUm){
+            nUm = inputArray[i] * inputArray[i + 1]
         }
     }
+    return nUm
 }
+
 console.log(solution([3, 6, -2, -5, 7, 3]))
