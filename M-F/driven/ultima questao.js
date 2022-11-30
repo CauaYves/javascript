@@ -26,10 +26,10 @@ function xadrez(posicaoTorre,posicaoAdversario){
         return "não"
     }
 }
-console.log(xadrez('11', '13')) //sim
-console.log(xadrez('44', '41')) //sim
-console.log(xadrez('11', '31')) //sim
-console.log(xadrez('81', '18')) //não   
-console.log(xadrez('88', '41')) //não
-console.log(xadrez('52', '67')) //não
-console.log(xadrez('77', '66')) //não
+function calc(n1, n2, operador){
+
+    return eval(`${n1} ${operador} ${n2}`)
+
+}
+
+console.log(calc(1, 5, `/`))
