@@ -5,23 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="library.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="box">
+    <section>
         <h1>Analisador de Números</h1>
         <p>
-            <label for="inum">Número (entre 1 e 100):</label>
-            <input type="number" name="numero" id="inumber">
-            <button onclick="adicionarNumero()">Adicionar</button>
+            <label for="input">Número (entre 1 e 100):</label>
+            <input type="number" name="numero" id="input">
+            <button onclick="validarValor()">Adicionar</button>
         </p>
-        <div id="div">
+        <div id="res">
                 
         </div>
-        <button>Finalizar</button>
+        <button onclick="finalizar()">Finalizar</button>
         <button onclick="limpar()">limpar</button>
+        <div id="final">
+
+        </div>
     </section>
+    <script src="library.js"></script>
 
 </body>
 </html>

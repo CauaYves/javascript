@@ -16,7 +16,7 @@ body{
     height: 100vh;
     width: 100vw;
 }
-section.box{
+section{
     display: block;
     background-color: aquamarine;
     min-width: 300px;
@@ -26,7 +26,7 @@ section.box{
     border-radius: 10px;
     box-shadow: 1px 4px 8px #f5e10236;
 }
-div{
+#res{
     background-color: aliceblue;
     margin-top: 10px;
     border: 1px solid black;
